@@ -426,12 +426,13 @@ a:hover, a:active, a:focus {
 }
 
 #about .team-thumb:hover .heading {
-  top: -10px;
+  top: -40px;
 }
 
 #about .team-thumb .description {
+  position: relative;
   font-size: 18px;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   opacity: 0;
   -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -442,6 +443,7 @@ a:hover, a:active, a:focus {
 }
 
 #about .team-thumb:hover .description {
+  top: -40px;
   opacity: 1;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
